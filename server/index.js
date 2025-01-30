@@ -26,7 +26,8 @@ app.use(cors({
   origin: [
     'http://localhost:5173', // Vite's default port
     'https://blockchain-nu-amber.vercel.app',
-    'https://btcflash.onrender.com'
+    'https://btcflash.onrender.com',
+    'https://coinfrontend-three.vercel.app'  // Add the missing domain
   ],
   credentials: true
 }));
